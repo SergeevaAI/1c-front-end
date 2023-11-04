@@ -13,7 +13,7 @@ square.lineTo(50, 50);
 context.stroke(square);
 
 circle = new Path2D();
-circle.arc(150, 150, 100, 0, 2 ♦ Math.PI);
+circle.arc(150, 150, 100, 0, 2 * Math.PI);
 
 /* Заливаем контур. */
 context.fill(circle);
